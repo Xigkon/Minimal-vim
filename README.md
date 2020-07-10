@@ -10,22 +10,5 @@
 ```
 sudo apt-get install vim-gtk
 ```
-然后```vim ~/.vimrc```,加入一下内容
-```
-set nocompatible              " be iMproved, required
-filetype off                  " required
- 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
- 
-" let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-Bundle 'Auto-Pairs'
-Plugin 'Valloric/YouCompleteMe'
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
-```
 2. 安装```Auto-pairs```
 命令行运行```vim +PluginInstall +qall```
