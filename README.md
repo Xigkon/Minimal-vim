@@ -9,7 +9,9 @@
 1. Vundle插件管理器
 ```
 sudo apt-get install vim-gtk
-
+```
+然后```vim ~/.vimrc```,加入一下内容
+```
 set nocompatible              " be iMproved, required
 filetype off                  " required
  
@@ -25,3 +27,5 @@ Plugin 'Valloric/YouCompleteMe'
 call vundle#end()            " required
 filetype plugin indent on    " required
 ```
+2. 安装```Auto-pairs```
+命令行运行```vim +PluginInstall +qall```
