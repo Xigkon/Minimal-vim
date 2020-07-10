@@ -34,6 +34,7 @@ map <C-A> ggVG"+y
 map <C-c> "+y
 inoremap <c-l> <right>
 inoremap <c-k> <esc>
+set completeopt=preview,menu
 
 map <F5> :call CompileRunGcc()<CR>
 func! CompileRunGcc()
