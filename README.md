@@ -8,7 +8,7 @@
 ## 需要安装的插件
 1. Vundle插件管理器
 ```
-sudo apt-get install vim-gtk
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 2. 安装```Auto-pairs```
 命令行运行```vim +PluginInstall +qall```
