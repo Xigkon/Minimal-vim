@@ -12,3 +12,5 @@ sudo apt-get install vim-gtk
 ```
 2. 安装```Auto-pairs```
 命令行运行```vim +PluginInstall +qall```
+## 其它插件
+先熟悉vim，再摸索适合自己的vim
